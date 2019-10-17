@@ -2,11 +2,13 @@
 
 Light weight NoSQL logger handles that we internally use at Invana. 
 
+## Installation
+`pip install cf-loggers`
+
 ## TODO
 
 - write in bulk
 - authentications - basic, aws signed auth.
-
 
 ## Simple Usage 
 ```python
