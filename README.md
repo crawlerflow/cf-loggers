@@ -25,7 +25,7 @@ logger_settings = {
 }
 
 init_logger(logger_settings)
-logging.info("Hello Earthians, We are coming from back from Mars soon")
+logging.info("Hello Earthians, We are coming back from Mars soon")
 
 ```
 
@@ -57,6 +57,6 @@ logging.basicConfig(
             extra_data=logger_settings.get("EXTRA_DATA", {})
         )
     ])
-logging.info("Hello Earthians, We are coming from back from Mars soon")
+logging.info("Hello Earthians, We are coming back from Mars soon")
 
 ```
